@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:title="@string/action_settings">
+
+    <EditTextPreference
+        android:title="@string/phone_numbers" 
+        android:key="phone_entries"
+        android:persistent="true"/>
+
+</PreferenceScreen>
